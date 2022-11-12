@@ -61,4 +61,11 @@ job_list = {
     "Rust developer":
     {"salary":70, "gladness_less": 1 },
        }
+def get_job(self):
+    if self.car.drive():
+        pass
+    else:
+        self.to_repair()
+        return
+    self.job = Job(job_list)
 
